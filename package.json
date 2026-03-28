@@ -6,10 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/arslan1317/whatsapp-calling.git"
-  },
   "author": "Mirza Ali",
   "license": "MIT",
   "bugs": {
