@@ -14,7 +14,7 @@ const {
 // STUN server allows each peer to discover its public IP for NAT traversal
 const ICE_SERVERS = [{ urls: "stun:stun.relay.metered.ca:80" }];
 
-const WHATSAPP_API_URL = `https://graph.facebook.com/v18.0/${process.env.PHONE_NUMBER_ID}/calls`;
+const WHATSAPP_API_URL = `https://graph.facebook.com/v25.0/${process.env.PHONE_NUMBER_ID}/calls`;
 const ACCESS_TOKEN = `Bearer ${process.env.ACCESS_TOKEN}`;
 
 const app = express();
